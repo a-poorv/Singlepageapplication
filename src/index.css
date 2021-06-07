@@ -1,13 +1,86 @@
 body {
+  background-color: #0084ff;
+  padding: 20px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.img-size{
+   
+  padding-top: 25px;
+  padding-right: 30px;
+  padding-bottom: 150px;
+  padding-left: 4px;
+  line-height: 1.6; 
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  .container {
+    
+    width: 35%;
+    background-color: lightblue;
+    text-align: right;
+    transform: translate(50%,-20%);
+    box-shadow: 5px 10px 8px 10px #888888;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white;
+    
+  }
+  
+  .Html {
+    width: 90%;
+    background-color: green;
+   
+  }
+  
+   .Css {
+    width: 85%;
+    background-color: navy;
+  
+  }
+  
+  .js {
+    width: 65%;
+    background-color: blue;
+    
+  }
+  
+  .React {
+    width: 50%;
+    background-color: blueviolet;
+   
+  }
