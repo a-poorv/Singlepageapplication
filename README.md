@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+The project contains single page web application deveoped in React js. the main concept used here are linking routing and navigation to diffrenet components of a single page web app.This is basic prototype for understanding  purpose however it can be develop further  according to the user requirement .
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
